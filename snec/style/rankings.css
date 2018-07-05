@@ -1,0 +1,84 @@
+@font-face {
+    font-family: eightBit;
+    src: url(8-bit.ttf);
+}
+
+header
+{
+    height: 5%;
+    width: 100%;
+    position: relative;
+    font-family: "eightBit";
+    text-align: center;
+    font-size:5vh;
+    font-size: 2vw;
+
+}
+h1
+{
+    margin: 0px;
+    font-size:8vh;
+    font-size: 3.5vw;
+}
+
+html
+{
+    height: 100%;
+}
+
+body{
+    background-image: url("../sprites/background1.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: rgb(106,158,104);
+}
+
+nav{
+    width: 100%;
+    height:100%;
+    margin-top:18%;
+}
+.buttons
+{
+    font-family: eightBit;
+    color: #000000;
+    font-size:3vh; 
+    font-size:3vw;
+    position:relative;
+
+    margin-left: 70%;
+    margin-right: 8%;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+#scores
+{
+    font-family: eightBit;
+    color: #000000;
+    font-size:3vh; 
+    font-size:3vw;
+    position:relative;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#button1:link, #button1:visited, #clearButton:link, #clearButton:visited
+{ 
+    text-decoration:none;
+    color:#000000;
+}
+
+#button1:hover, #clearButton:hover
+{
+    color:red;
+    cursor:pointer;
+}
+
+#button1:active , #clearButton:active
+{
+    color:rgb(106,158,104);
+}

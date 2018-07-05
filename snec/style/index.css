@@ -1,0 +1,27 @@
+@font-face {
+    font-family: eightBit;
+    src: url(8-bit.ttf);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 80%;
+    background-image: url("../sprites/background.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: #dee585;
+    align-items: center;
+    justify-content: center;
+}
+
+a
+{
+    align-items: flex-end;
+    font-family: "eightBit";
+    font-size: 2vh;
+}

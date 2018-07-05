@@ -1,0 +1,54 @@
+@font-face {
+    font-family: eightBit;
+    src: url(../style/8-bit.ttf);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    height: 80%;
+    background-image: url("../sprites/bckins.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: rgb(106,158,104);
+}
+
+p{
+    font-size:2vh;
+    font-size:2vw;
+    font-family: eightBit;
+    position: relative;
+    margin-top: 6.5%;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+#button1 p
+{
+    background-color: red;
+    margin-top: 0%;
+    margin-left: 75%;
+    margin-bottom: 10%;
+}
+
+#button1:link, #button1:visited
+{
+    text-decoration:none;
+    color:#000000;
+}
+
+#button1:hover
+{
+    cursor:pointer;
+    color:red;
+}
+
+#button1:active
+{
+    cursor:pointer;
+    color:rgb(106,158,104);
+}
